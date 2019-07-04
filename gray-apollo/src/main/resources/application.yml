@@ -1,0 +1,8 @@
+app:
+  id: ${app_ip:gray_apollo}
+apollo:
+  cluster: ${apollo_cluster:default}
+  bootstrap:
+    enabled: ${apollo_bootstrap:true}
+    name  spaces: ${apollo_namespaces:grayapollo}
+  meta: ${apollo_meta:http://127.0.0.1:8080}
