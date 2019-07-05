@@ -16,4 +16,5 @@
 * 博客地址1：[灰度实战（一）:Apollo配置中心（1）](https://blog.csdn.net/zhanghan18333611647/article/details/94589340 "别忘记点赞哦") 
 * 博客地址2：[灰度实战（二）:Apollo配置中心（2）](https://blog.csdn.net/zhanghan18333611647/article/details/94590782 "别忘记点赞哦") 
 * 博客地址3：[灰度实战（三）:Apollo配置中心（3）](https://blog.csdn.net/zhanghan18333611647/article/details/94601303 "别忘记点赞哦") 
+* 博客地址4：[灰度实战（四）:Apollo配置中心（4）](https://blog.csdn.net/zhanghan18333611647/article/details/94734557 "别忘记点赞哦") 
 
