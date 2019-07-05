@@ -96,7 +96,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>zh-boot</finalName>
+        <finalName>gray-apollo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
