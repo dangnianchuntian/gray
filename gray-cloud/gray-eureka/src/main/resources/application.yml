@@ -1,0 +1,8 @@
+app:
+  id: ${app_ip:gray_cloud}
+apollo:
+  cluster: ${apollo_cluster:default}
+  bootstrap:
+    enabled: ${apollo_bootstrap:true}
+    namespaces: ${apollo_namespaces:eureka}
+  meta: ${apollo_meta:http://172.16.11.226:8088}
