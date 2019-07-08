@@ -11,7 +11,7 @@
 package com.zhanghan.grayapollo.util.wrapper;
 
 
-import io.micrometer.core.instrument.util.StringUtils;
+import com.ctrip.framework.apollo.core.utils.StringUtils;
 
 /**
  * The class Wrap mapper.
