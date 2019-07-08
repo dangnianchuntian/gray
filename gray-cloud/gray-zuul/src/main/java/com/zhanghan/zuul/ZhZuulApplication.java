@@ -10,7 +10,8 @@
 
 package com.zhanghan.zuul;
 
-import com.zhanghan.zuul.filter.GrayZuulFilter;
+import com.zhanghan.zuul.filter.GrayDirectZuulFilter;
+import com.zhanghan.zuul.filter.GrayRedirectZuulFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -22,15 +23,29 @@ import org.springframework.context.annotation.Bean;
 @EnableZuulProxy
 public class ZhZuulApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		SpringApplication.run(ZhZuulApplication.class, args);
-	}
+        SpringApplication.run(ZhZuulApplication.class, args);
+    }
 
-	@Bean
-	public GrayZuulFilter grayZuulFilter() {
-		return new GrayZuulFilter();
-	}
+
+    /**
+     * 重定向方式的Filter---性能低
+     */
+    @Bean
+    public GrayRedirectZuulFilter grayRedirectZuulFilter() {
+        return new GrayRedirectZuulFilter();
+    }
+
+    /**
+     * 直接跳转方式的Filter---性能高建议采用
+     *
+     * @return
+     */
+    @Bean
+    public GrayDirectZuulFilter grayDirectZuulFilter() {
+        return new GrayDirectZuulFilter();
+    }
 
 
 }

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019. zhanghan_java@163.com All Rights Reserved.
  * 项目名称：灰度实战
- * 类名称：GrayZuulFilter.java
+ * 类名称：GrayRedirectZuulFilter.java
  * 创建人：张晗
  * 联系方式：zhanghan_java@163.com
  * 开源地址: https://github.com/dangnianchuntian/springboot
@@ -28,7 +28,7 @@ import java.nio.charset.Charset;
 
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
 
-public class GrayZuulFilter extends ZuulFilter {
+public class GrayRedirectZuulFilter extends ZuulFilter {
 
 
     @Autowired
