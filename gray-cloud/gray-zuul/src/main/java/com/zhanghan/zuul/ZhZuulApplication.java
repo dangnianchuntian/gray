@@ -10,7 +10,6 @@
 
 package com.zhanghan.zuul;
 
-import com.zhanghan.zuul.filter.GrayDirectZuulFilter;
 import com.zhanghan.zuul.filter.GrayRedirectZuulFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -42,10 +41,10 @@ public class ZhZuulApplication {
      *
      * @return
      */
-    @Bean
-    public GrayDirectZuulFilter grayDirectZuulFilter() {
-        return new GrayDirectZuulFilter();
-    }
+//    @Bean
+//    public GrayDirectZuulFilter grayDirectZuulFilter() {
+//        return new GrayDirectZuulFilter();
+//    }
 
 
 }
