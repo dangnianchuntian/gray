@@ -21,7 +21,7 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <jedis.version>2.9.0</jedis.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
-        <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
+        <springfox-swagger-ui.version>2.10.0</springfox-swagger-ui.version>
         <apollo-client.version>1.4.0</apollo-client.version>
     </properties>
 
